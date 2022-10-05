@@ -1,0 +1,38 @@
+body{
+    background-color: #F2CCC3
+}
+
+header{
+    text-align: center;
+}
+.cat{
+    background-color: burlywood;
+    font-style: italic;
+    display: inline-block;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+    background-image: url(https://cdn.wallpapersafari.com/26/10/lV9LYT.jpg);
+    background-size:cover;
+    background-position-y: bottom;
+    background-blend-mode:lighten;
+    background-repeat: repeat-y
+    b    
+}
+
+h1{
+    font-size: xx-large;
+    font-weight:500px;
+}
+
+hr{
+    background-color: white;
+    height: 2px;
+}
+
+.institutions{
+    background-color:#e78f8e;
+}
