@@ -1,0 +1,14 @@
+a{
+    color: black;
+    padding: 10px;
+}
+
+header{
+    text-align: center;
+}
+.cat{
+    text-align: center;
+    background-color: burlywood;
+    font-style: italic;
+    display: inline-block;
+}

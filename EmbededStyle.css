@@ -1,0 +1,13 @@
+a{
+    color: black;
+}
+
+header{
+    text-align: center;
+}
+
+.cat{
+    background-color: burlywood;
+    font-style: italic;
+    display: inline-block;
+}
