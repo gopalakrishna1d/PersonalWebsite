@@ -1,9 +1,10 @@
 body{
-    background-color: #F2CCC3;
+    background-color: #003554;
 }
 
 header{
     text-align: center;
+    margin-bottom: 0;
 }
 
 .cat{
@@ -13,10 +14,11 @@ header{
 }
 
 main{
-    background-image: url(https://cdn.wallpapersafari.com/26/10/lV9LYT.jpg);
-    background-size: 45cm;
-    background-position-x: 8px;
+    margin-top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://cdn.wallpapersafari.com/26/10/lV9LYT.jpg);
+    background-size:cover;
     background-repeat: repeat-y;
+    margin-top: 2cm;
 }
 
 .info{
@@ -25,18 +27,24 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding-left : 75px;
+    padding-right : 75px;
     padding-bottom: 75px;
+    padding-top: 50px
 }
 
 .tit{
     text-shadow: black;
     font-size: 0.6in;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 hr{
     background-color: white;
     height: 2px;
+}
+
+h1 span{
+    background-color: rgba(0,0,0,0.5);
 }
 
 .edulevel{
