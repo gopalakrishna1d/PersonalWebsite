@@ -1,22 +1,26 @@
 h2{
-    font-family: Arial;
     stroke: black;
     stroke-width: 2px;
 }
 
 h1{
-    text-align:center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+h1, h2{
+    padding-left: 20px;
 }
 
 body{
-    background-color: #acd8aa;
+    font-family: Arial;
+    background-color: #020887;
     margin: 0;
 }
 
 header{
     color: aliceblue;
-    background-image: url(https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydGZvbGlvfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-image: url();
     background-size: 19cm;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -32,19 +36,17 @@ hr{
     height: 2px;
 }
 
-iframe {
-    width: 1200px;
-    height: 1000px;
-    margin: 0;
-    background-image: url(https://images.fineartamerica.com/images-medium-large-5/geometric-hipster-retro-background-my-portfolio.jpg);
-    background-size: cover;
+.iframe {
+    padding: 50px;
+    margin-left: 6cm;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
-.name{
-    background-image: url(https://scontent.fhyd14-1.fna.fbcdn.net/v/t39.30808-6/309437440_1928857100646171_1960084684162492860_n.jpg?stp=dst-jpg_p180x540&_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=Tl4WfGog99cAX_47sNO&_nc_ht=scontent.fhyd14-1.fna&oh=00_AT-6C-YIZb3orG8esYxpuxycgFzWt0PKGMzGniObReYMlA&oe=63458025);
-    background-size: 100%;
-    background-position-x: center;
-    width:10cm;
-    background-repeat: no-repeat;
+main{
+    color: white;
+}
+
+a{
+    color:aqua;
 }
