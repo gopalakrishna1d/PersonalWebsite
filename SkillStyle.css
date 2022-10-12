@@ -24,6 +24,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 2cm;
+    padding-left: 20px;
 }
 
 .tit{
@@ -31,7 +32,7 @@ main{
 }
 
 .info{
-    padding-top: 8%;;
+    padding-top: 8%;
     font-size: large;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
@@ -39,4 +40,9 @@ main{
     padding-left : 75px;
     padding-right : 75px;
     padding-bottom: 75px;
+}
+
+button{
+    background-color: violet;
+    font-family: 'Arial';
 }

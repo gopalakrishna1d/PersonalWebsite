@@ -32,13 +32,14 @@ body{
 
 #about{
     font-size: 18px;
-    padding: 50px;
-
+    padding: 70px;
 }
 
 iframe{
     background-color: rgba(0,0,0,0.8);
-    background-image:url(#);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(https://scontent.fhyd11-2.fna.fbcdn.net/v/t39.30808-6/311341304_1933428420189039_4871031356129749878_n.jpg?stp=dst-jpg_s1080x2048&_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=AE2XmixyYmwAX9Ql-w7&_nc_ht=scontent.fhyd11-2.fna&oh=00_AT_0RU6f_d_JAsK0nPQBPjcRBZjxDXneRzZs2K0hyE1ZFg&oe=634BDD98);
+    background-size: cover;
+    background-position-y: center;
     margin-left: 60px;
     margin-right: 80px;
 }
@@ -82,7 +83,7 @@ nav{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     padding-left: 20px;
-    padding-right:60%;
+    padding-right:65%;
     text-decoration:dashed;
 }
 

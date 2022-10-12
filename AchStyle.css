@@ -14,11 +14,41 @@ header{
 }
 
 body{
-    margin: 20px;
+    background-color: #d84a05;
 }
 
 main{
-    background-image: url(https://scontent.fhyd14-2.fna.fbcdn.net/v/t39.30808-6/311481411_1932597010272180_7897790722634825168_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=p-ORkt8gemgAX8Wimah&_nc_ht=scontent.fhyd14-2.fna&oh=00_AT9VG35D_aC5Ypsl08XQR0pOCuVBuxDtlxsSyjABqU7d5g&oe=634A5BA1);
-    background-size:auto;
-    width:auto;
+    font-family:sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://scontent.fhyd14-2.fna.fbcdn.net/v/t39.30808-6/311481411_1932597010272180_7897790722634825168_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=p-ORkt8gemgAX8Wimah&_nc_ht=scontent.fhyd14-2.fna&oh=00_AT9VG35D_aC5Ypsl08XQR0pOCuVBuxDtlxsSyjABqU7d5g&oe=634A5BA1);
+    background-size:cover;
+    background-position-y: center;
+    background-position-x: center;
+    padding-top: 20px;
+    margin-top: 1cm;
+}
+
+h1 span{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 20px;
+    font-size: 0.5in;
+}
+
+p span, h4 span{
+    background-color: rgba(225,225,225,0.5);
+}
+
+h4{
+    font-size:large;
+}
+
+hr{
+    width:95%;
+    height: 5px;
+    background-color: white;    
+}
+
+button{
+    background-color: violet;
+    font-family: 'Arial';
 }

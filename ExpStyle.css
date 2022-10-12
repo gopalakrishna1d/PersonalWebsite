@@ -26,13 +26,17 @@ h2 span, p span{
     background-color: rgba(0,0,0,0.5);
 }
 
+h2{
+    font-size: 0.5in;
+}
+
 main{
     color: white;
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,  url(https://scontent.fhyd14-2.fna.fbcdn.net/v/t39.30808-6/311338838_1932580836940464_7100702806834274245_n.jpg?stp=dst-jpg_p600x600&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=bFKXAVv1RQIAX-f6ekR&_nc_ht=scontent.fhyd14-2.fna&oh=00_AT_BVISPxZwKs256d1TSbLwWqYgOyKpYip5lvGgEpa-kDw&oe=634A5F92);
     background-position-x: center;
     background-repeat: repeat-y;
     background-size: cover;
-    margin-top: 2cm;
+    margin-top: 1cm;
 }
 
 .info{
@@ -44,4 +48,9 @@ main{
     padding-left : 75px;
     padding-right : 75px;
     padding-bottom: 75px;
+}
+
+button{
+    background-color: violet;
+    font-family: 'Arial';
 }

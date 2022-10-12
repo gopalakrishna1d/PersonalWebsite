@@ -13,7 +13,38 @@ header{
     display: inline-block;
 }
 
+body{
+    background-color: #6b8ab1;
+}
+
 main{
-    background-image: url(https://scontent.fhyd14-1.fna.fbcdn.net/v/t39.30808-6/311410175_1932596973605517_2730189978234627487_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=FC44vxUA34oAX9Zc2c0&_nc_oc=AQm2FJp_VRTBY9A6zXG346_snXBYHTRdlYJ0fmEeORvNegee6axlhYI3QkL1VnC87vCjf-y1qfknkdY3OYbMdo2H&_nc_ht=scontent.fhyd14-1.fna&oh=00_AT8u4ey8bxS3jgHYTWUeGMAT_1JCxTlM9CnIdDn7fob9QQ&oe=63498C6A);
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://scontent.fhyd14-1.fna.fbcdn.net/v/t39.30808-6/311410175_1932596973605517_2730189978234627487_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=FC44vxUA34oAX9Zc2c0&_nc_oc=AQm2FJp_VRTBY9A6zXG346_snXBYHTRdlYJ0fmEeORvNegee6axlhYI3QkL1VnC87vCjf-y1qfknkdY3OYbMdo2H&_nc_ht=scontent.fhyd14-1.fna&oh=00_AT8u4ey8bxS3jgHYTWUeGMAT_1JCxTlM9CnIdDn7fob9QQ&oe=63498C6A);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    font-size:large;
+    font-family: sans-serif;
+    margin-top:1cm;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 span, h2 span, p span{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+h1{
+    font-size: 0.5in;
+}
+hr{
+    width: 100%;
+    height: 2px;
+    background-color: white;;
+}
+
+button{
+    background-color: violet;
+    font-family: 'Arial';
 }
