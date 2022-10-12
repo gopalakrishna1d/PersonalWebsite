@@ -12,3 +12,8 @@ header{
     font-style: italic;
     display: inline-block;
 }
+
+main{
+    background-image: url(https://scontent.fhyd14-2.fna.fbcdn.net/v/t39.30808-6/311295509_1932596916938856_1006040853179968204_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=sCGTwl8OVLkAX_7_LUz&tn=UN2ItFve6eSWz1Wv&_nc_ht=scontent.fhyd14-2.fna&oh=00_AT_ckcTmoP7oQKQ9TubZS-ycQA4Qhm5Kz2VUuPnQ7Fx8iQ&oe=634940FB);
+    background-size: cover;
+}

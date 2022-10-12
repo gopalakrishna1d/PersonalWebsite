@@ -14,9 +14,11 @@ header{
 }
 
 body{
-    background-color:;
+    margin: 20px;
 }
 
 main{
-    background-image: url(https://img.freepik.com/premium-photo/champion-golden-trophy-winner-background-success-achievement-concept_488220-5559.jpg?w=2000);
+    background-image: url(https://scontent.fhyd14-2.fna.fbcdn.net/v/t39.30808-6/311481411_1932597010272180_7897790722634825168_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=p-ORkt8gemgAX8Wimah&_nc_ht=scontent.fhyd14-2.fna&oh=00_AT9VG35D_aC5Ypsl08XQR0pOCuVBuxDtlxsSyjABqU7d5g&oe=634A5BA1);
+    background-size:auto;
+    width:auto;
 }
