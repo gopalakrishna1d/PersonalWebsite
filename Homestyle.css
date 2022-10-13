@@ -24,7 +24,7 @@ video{
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url(https://scontent.fhyd14-1.fna.fbcdn.net/v/t39.30808-6/311321769_1932602693604945_6877769454061968279_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=2cMa6IcFbjQAX8PmdwZ&tn=UN2ItFve6eSWz1Wv&_nc_ht=scontent.fhyd14-1.fna&oh=00_AT9Uk7EEp-QuANjrHjA_CJnAD4Xuo3gMrY5z2ej1au0_ew&oe=634A80DA);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url(https://scontent.fhyd11-2.fna.fbcdn.net/v/t39.30808-6/311517664_1934185610113320_1071654107787130379_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=xg_zp5QUtMYAX-vOYwY&_nc_ht=scontent.fhyd11-2.fna&oh=00_AT8reaSVjKir2NwF_Ywcx1TT0vK9g2EnavWwX2FhPo9jCg&oe=634CBBFF);
     background-size: cover;
     background-position-x: center;
     margin:0;
@@ -36,12 +36,12 @@ body{
 }
 
 iframe{
-    background-color: rgba(0,0,0,0.8);
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(https://scontent.fhyd11-2.fna.fbcdn.net/v/t39.30808-6/311341304_1933428420189039_4871031356129749878_n.jpg?stp=dst-jpg_s1080x2048&_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=AE2XmixyYmwAX9Ql-w7&_nc_ht=scontent.fhyd11-2.fna&oh=00_AT_0RU6f_d_JAsK0nPQBPjcRBZjxDXneRzZs2K0hyE1ZFg&oe=634BDD98);
-    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(https://scontent.fhyd11-2.fna.fbcdn.net/v/t39.30808-6/311463246_1934182920113589_8682756870279924635_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=v9ccAFlQAGUAX9_0fSp&tn=UN2ItFve6eSWz1Wv&_nc_ht=scontent.fhyd11-2.fna&oh=00_AT-BsIXx7XQkiGiXLNzoLLAgXEUohVUn2rUET6E2Qt8mew&oe=634D55E5);
+    background-size: contain;
     background-position-y: center;
-    margin-left: 60px;
-    margin-right: 80px;
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 
 hr{
@@ -83,17 +83,18 @@ nav{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     padding-left: 20px;
-    padding-right:65%;
+    padding-right:50%;
     text-decoration:dashed;
 }
 
 #navbar{
     color:aqua;
     font-family: 'Lucia Sans';
-    font-size: 10px;
-    padding-right: 7px;
-    padding-left: 7px;
+    font-size: 15px;
+    padding-right: 14px;
+    padding-left: 14px;
     text-decoration: none;
+    margin-right:0;
 }
 
 a{
