@@ -19,7 +19,7 @@ body{
 
 main{
     font-family:sans-serif;
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://scontent.fhyd14-2.fna.fbcdn.net/v/t39.30808-6/311481411_1932597010272180_7897790722634825168_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=p-ORkt8gemgAX8Wimah&_nc_ht=scontent.fhyd14-2.fna&oh=00_AT9VG35D_aC5Ypsl08XQR0pOCuVBuxDtlxsSyjABqU7d5g&oe=634A5BA1);
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(images/achievements.jpg);
     background-size:cover;
     background-position-y: center;
     background-position-x: center;
@@ -52,4 +52,5 @@ hr{
 button{
     background-color: violet;
     font-family: 'Arial';
+    float: right;
 }

@@ -18,7 +18,7 @@ body{
 }
 
 main{
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://scontent.fhyd14-1.fna.fbcdn.net/v/t39.30808-6/311410175_1932596973605517_2730189978234627487_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=FC44vxUA34oAX9Zc2c0&_nc_oc=AQm2FJp_VRTBY9A6zXG346_snXBYHTRdlYJ0fmEeORvNegee6axlhYI3QkL1VnC87vCjf-y1qfknkdY3OYbMdo2H&_nc_ht=scontent.fhyd14-1.fna&oh=00_AT8u4ey8bxS3jgHYTWUeGMAT_1JCxTlM9CnIdDn7fob9QQ&oe=63498C6A);
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/project.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -47,4 +47,5 @@ hr{
 button{
     background-color: violet;
     font-family: 'Arial';
+    float: right;
 }

@@ -15,7 +15,7 @@ header{
 
 main{
     margin-top: 1cm;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://scontent.fhyd14-2.fna.fbcdn.net/v/t39.30808-6/311406646_1932580860273795_2741643327063199053_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=w-tJKYm4awcAX90ppf6&_nc_oc=AQk6U6f1o9hdndZal1oE9xGemLl64U8hgxQtt8x0IDTHoErUE2IsVeiFfRKx1hwhLNcmW3Gh-pylu_TTPlrOFWpY&_nc_ht=scontent.fhyd14-2.fna&oh=00_AT8WYH-sm1SiK-rg1XpoG2ALUJQEJah8Gvyw2rdqvRsiDA&oe=63493865);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/education.jpg);
     background-size:cover;
     background-repeat: repeat-y;
 }
@@ -62,4 +62,5 @@ a{
 button{
     background-color: violet;
     font-family: 'Arial';
+    float: right;
 }
