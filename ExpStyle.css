@@ -32,11 +32,13 @@ h2{
 
 main{
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,  url(images/experience.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)) ,  url(images/experience.jpg);
     background-position-x: center;
     background-repeat: repeat-y;
     background-size: cover;
     margin-top: 1cm;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .info{

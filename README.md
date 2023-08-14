@@ -1,2 +1,6 @@
 # PersonalWebsite
- This is a personal website. I have worked on it all by myself. I think it is perfect in its own way. If you think there could be any better changes, you are open to suggest.
+ This is a personal website. That I have created as a practice in my initial days of my programming journy.
+
+ => Languages used: HTML & CSS
+
+ => Hosting Platform: Google Drive
