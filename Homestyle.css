@@ -12,6 +12,7 @@ main{
     margin: 0;
     color: white;
     padding:50px;
+    overflow: hidden;
 }
 
 video{
@@ -24,11 +25,14 @@ video{
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.111), rgba(0,0,0,0.12)), url(images/home.jpg);
-    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0)), url(images/background.jpg);
+    background-size:cover;
     background-position-x: center;
-    background-position-y: top;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
     margin:0;
+    padding:0;
+    overflow:visible;
 }
 
 #about{
@@ -38,9 +42,9 @@ body{
     background-color: rgba(0,0,0,0.5);
 }
 
-iframe{
+#embedded{
     background-color: rgba(0,0,0,0.3);
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url(images/iframe.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(images/iframe.jpg);
     background-size: contain;
     background-position-y: center;
     background-repeat: no-repeat;
@@ -49,6 +53,37 @@ iframe{
 
 }
 
+.inside{
+    color:burlywood;
+    font-size: 30px;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.iframe-container {
+    background-image: url(images/Thanks.png);
+    background-position: center;
+    background-position-y: 23%;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 50%;
+    height: 20cm; 
+    max-height:min-content;
+    overflow: hidden;
+    margin-bottom: 0%;
+}
+
+#contact_form{
+    height: 90%;
+    transform: translateY(-26%);
+    width: 100%;
+    border: none;
+    overflow: hidden;
+}
+
+
 hr{
     background-color: white;
     height: 10px;
@@ -56,17 +91,8 @@ hr{
 
 #contact{
     width: 50px;
-    padding-left:15px;
-    padding-right:15px;
-}
-
-.inside{
-    color:burlywood;
-    font-size: 30px;
-    font-style: italic;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-
+    display: inline;
+    position:relative;
 }
 
 div{
@@ -107,4 +133,9 @@ nav{
 
 a{
     font-style:oblique;
+}
+
+#end{
+    text-align: center;
+    width: 45%;
 }
