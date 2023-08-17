@@ -1,6 +1,7 @@
 a{
     color: black;
     padding: 10px;
+    text-decoration: none;
 }
 
 header{
@@ -45,8 +46,22 @@ hr{
     background-color: white;;
 }
 
-button{
+button {
     background-color: violet;
-    font-family: 'Arial';
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     float: right;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+}
+
+button:hover {
+    background-color: indigo;
+    transform: translateY(-3px); /* Add a slight lift effect on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
