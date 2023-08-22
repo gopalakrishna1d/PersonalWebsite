@@ -19,6 +19,11 @@ body{
     background-color: #6b8ab1;
 }
 
+.link{
+    color: white;
+    text-decoration: dotted;
+}
+
 main{
     background-image:linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(images/project.jpg);
     background-size: cover;
