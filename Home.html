@@ -72,23 +72,35 @@
             </div>
             <div class="form-container">
                 <p align="center"><b>-Leave a Comment</b></p>
-                <form id="form" method="POST" action="https://formsubmit.co/gopalakrishna.1d@gmail.com" name="contactform">
+                <form id="form" method="POST" name="contactform">
                     <input type="hidden" name="_captcha" value="false">
                     <div class="form-group">
                         <label class="form-label" for="name">Name:</label>
-                        <input class="form-input" type="text" id="name" name="your-name" required>
+                        <input class="form-input" type="text" id="name" name="Name" required>
                     </div>
                     <div class="form-group">
                         <label class="form-label" for="email">Email:</label>
-                        <input class="form-input" type="email" id="email" name="your-email" required>
+                        <input class="form-input" type="email" id="email" name="Email" required>
 
                     </div>
                     <div class="form-group">
                         <label class="form-label" for="message">Message:</label>
-                        <textarea class="form-input" id="message" name="your-message" rows="4" required></textarea>
+                        <textarea class="form-input" id="message" name="Message" rows="4" required></textarea>
                     </div>
                     <button class="form-submit" type="submit" onclick="saveFile()">Submit</button>
                 </form>
+                <script>
+                    const scriptURL = 'https://script.google.com/macros/s/AKfycbwBMG-XUCTLocNRo0H0nFaLNq9vOxAOca-CA4Zy0aIEUreMJGzWR-4UTGxMKktIf578/exec'
+                    const form = document.forms['contactform']
+                  
+                    form.addEventListener('submit', e => {
+                      e.preventDefault()
+                      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                        .then(response => alert("Thank you! your form is submitted successfully." ))
+                        .then(() => {  window.location.reload(); })
+                        .catch(error => console.error('Error!', error.message))
+                    })
+                  </script>
             </div>
         </main>
     </body>
