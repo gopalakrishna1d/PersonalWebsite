@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gopala Krishna D | Personal Website </title>
         <link rel="stylesheet" href="Homestyle.css" />
         <link rel="icon" href="images/logo.png" />
@@ -52,29 +53,42 @@
                 </p>
             </div><br><br>
 
-            <h2 align="center"><span>Contact me.</span></h2>
             <div align="center">
+                <h1 align="center"><span>Contact me.</span></h1>
                 <p id="contact">
                     <a href="https://www.linkedin.com/in/gopala-krishna-d/" target="_blank" placeholder="LINKEDIN=@gopala-krishna-d">
                         <img id="contact" src="images/linkedin.png">
-                    </a>&nbsp;&nbsp;
+                    </a>&nbsp;&nbsp; <br><br>
                     <a href="https://instagram.com/iam._.gk?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank" placeholder="LINKEDIN=@gopala-krishna-d">
                         <img id="contact" src="images/insta.png">
-                    </a>&nbsp;&nbsp;
+                    </a>&nbsp;&nbsp; <br><br>
                     <a href="https://twitter.com/g0pa1kr1shna" target="_blank" placeholder="TWITTER=@g0palakr1shna">
                         <img id="contact" src="images/twitter.png">
-                    </a>&nbsp;&nbsp;
+                    </a>&nbsp;&nbsp; <br><br>
                     <a href="https://github.com/gopalakrishna1d" target="_blank" placeholder="GitHub">
                         <img id="contact" src="images/git.png">
-                    </a>
+                    </a><br><br>
                 </p><br><br>
             </div>
-            <p align="center"><b>-Leave a Comment</b></p>
-            <div align="center" class="cont">
-                <div class="iframe-container">
-                    <iframe id="contact_form" scrolling="no" src="https://docs.google.com/forms/d/e/1FAIpQLSfSScGDOZqkcFVOA-tlFQe3sH2YjxETmFOuiAmQljWuGJK8hA/viewform?embedded=true" >Loading…</iframe>
-                </div>
-                <h1 id="end">Visit again.</h1>
+            <div class="form-container">
+                <p align="center"><b>-Leave a Comment</b></p>
+                <form id="form" method="POST" action="https://formsubmit.co/gopalakrishna.1d@gmail.com" name="contactform">
+                    <input type="hidden" name="_captcha" value="false">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Name:</label>
+                        <input class="form-input" type="text" id="name" name="your-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="email">Email:</label>
+                        <input class="form-input" type="email" id="email" name="your-email" required>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="message">Message:</label>
+                        <textarea class="form-input" id="message" name="your-message" rows="4" required></textarea>
+                    </div>
+                    <button class="form-submit" type="submit" onclick="saveFile()">Submit</button>
+                </form>
             </div>
         </main>
     </body>
