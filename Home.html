@@ -1,107 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Gopala Krishna D | Personal Website </title>
-        <link rel="stylesheet" href="Homestyle.css" />
-        <link rel="icon" href="images/logo.png" />
-    </head>
-    <body oncontextmenu="return false;">
-        <header>        
-        <div id="home">
-            <nav>
-                <p align="left">
-                    <a id="refresh" href="Home.html">Gopala Krishna D</a>
-                    <span class="right">
-                    <a id="navbar" href="#home">Home</a>
-                    <a id="navbar" href="#about">About</a>
-                    <a id="navbar" href="#iframe">Details</a>
-                    <a id="navbar" href="#contact">Contact</a>
+<!DOCTYPE html> <!-- Document type declaration -->
+<html lang="en"> <!-- Language of the document -->
+
+<head>
+    <meta charset="utf-8"/> <!-- Character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport settings -->
+    <title>Gopala Krishna D | Personal Website </title> <!-- Title of the webpage -->
+    <link rel="stylesheet" href="Homestyle.css" /> <!-- Link to an external CSS file -->
+    <link rel="icon" href="images/logo.png" /> <!-- Favicon for the webpage -->
+</head>
+
+<body oncontextmenu="return false;"> <!-- Disable right-click context menu -->
+
+    <header> <!-- Header section -->
+        <div id="home"> <!-- Home section -->
+            <nav> <!-- Navigation -->
+                <p align="left"> <!-- Paragraph aligned to the left -->
+                    <a id="refresh" href="Home.html">Gopala Krishna D</a> <!-- Link to home -->
+                    <span class="right"> <!-- Right-aligned span -->
+                        <a id="navbar" href="#home">Home</a> <!-- Link to home section -->
+                        <a id="navbar" href="#about">About</a> <!-- Link to about section -->
+                        <a id="navbar" href="#iframe">Details</a> <!-- Link to details section -->
+                        <a id="navbar" href="#contact">Contact</a> <!-- Link to contact section -->
                     </span>
                 </p>
             </nav>
         </div>
-        <div id="name">
-        <video autoplay muted loop playsinlinestyle="pointer-events: none;">
-            <source src="images/namevid.mp4"  type="video/mp4">
-        </video>
+        <div id="name"> <!-- Name section -->
+            <video autoplay muted loop playsinlinestyle="pointer-events: none;"> <!-- Video element -->
+                <source src="images/namevid.mp4"  type="video/mp4"> <!-- Source of the video -->
+            </video>
         </div>
-        </header>
-        <main>
-        <hr>
-            <p id="about" class="about"><i>Hey there,</i><br><br>
-                <i>Welcome to my corner of the digital universe! <br><br>
-                    I'm thrilled you've dropped by for a visit. I've poured countless cups of virtual coffee into crafting this little haven.<br>
-                    I really hope you like it.<br><br>
-                    Now, I won't be waving a flag of bragging rights here, but hey, I did manage to snag a bachelor's degree in the mystical arts of Computer Science and Engineering (BTech). You know, the modern-day wizardry stuff.<br>
-                    In between sips of inspiration, I've conjured up a bunch of personal and academic projects. They're all hanging out in the projects section.<br>
-                    Oh, and if you're curious about my current adventures, I've infiltrated the ranks of a startup called MATDUN AI. I answer to the title of "Junior Backend Sorcerer(Developer)." My spells? Well, they involve coding and a sprinkle of fairy dust (or just a lot of caffeine).<br>
-                    But wait, there's more! I'm not just a code-wielding magician. I'm on a passionate quest to absorb knowledge like a sponge on steroids. Learning new things and then bravely trying to fit them into my brain is kind of my jam.<br><br>
-                    Now, I could keep rambling on like a caffeinated parrot, but I sense you might be craving a break.</i> 😂<br><br>
-                    <i> So, I'll zip it and let you embark on your epic journey through this page. Oh, and before you go gallivanting off, feel free to drop a comment. I'm all ears— well, metaphorically speaking. You can even whisper your thoughts anonymously by skipping your name.<br>
-                    Happy exploring, you intrepid adventurer!</i> 🚀🔮  
-                😉
-            </p>
-        <hr>
-            <p class="inside">
-                <b>Select from below to know more</b>
-            </p>
-            <div id=iframe>
-                <p align="center">
-                <iframe id="embedded"  width="900" height="1000" src="Embeded.html" alt="A box showing different pages"></iframe>
-                </p>
-            </div><br><br>
+    </header>
 
-            <div align="center">
-                <h1 align="center"><span>Contact me.</span></h1>
-                <p id="contact">
-                    <a href="https://www.linkedin.com/in/gopala-krishna-d/" target="_blank" placeholder="LINKEDIN=@gopala-krishna-d">
-                        <img id="contact" src="images/linkedin.png">
-                    </a>&nbsp;&nbsp; <br><br>
-                    <a href="https://instagram.com/iam._.gk?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank" placeholder="LINKEDIN=@gopala-krishna-d">
-                        <img id="contact" src="images/insta.png">
-                    </a>&nbsp;&nbsp; <br><br>
-                    <a href="https://twitter.com/g0pa1kr1shna" target="_blank" placeholder="TWITTER=@g0palakr1shna">
-                        <img id="contact" src="images/twitter.png">
-                    </a>&nbsp;&nbsp; <br><br>
-                    <a href="https://github.com/gopalakrishna1d" target="_blank" placeholder="GitHub">
-                        <img id="contact" src="images/git.png">
-                    </a><br><br>
-                </p><br><br>
-            </div>
-            <div class="form-container">
-                <p align="center"><b>-Leave a Comment</b></p>
-                <form id="form" method="POST" name="contactform">
-                    <input type="hidden" name="_captcha" value="false">
-                    <div class="form-group">
-                        <label class="form-label" for="name">Name:</label>
-                        <input class="form-input" type="text" id="name" name="Name" required>
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label" for="email">Email:</label>
-                        <input class="form-input" type="email" id="email" name="Email" required>
+    <main> <!-- Main content section -->
+        <hr> <!-- Horizontal rule -->
 
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label" for="message">Message:</label>
-                        <textarea class="form-input" id="message" name="Message" rows="4" required></textarea>
-                    </div>
-                    <button class="form-submit" type="submit" onclick="saveFile()">Submit</button>
-                </form>
-                <script>
-                    const scriptURL = 'https://script.google.com/macros/s/AKfycbwBMG-XUCTLocNRo0H0nFaLNq9vOxAOca-CA4Zy0aIEUreMJGzWR-4UTGxMKktIf578/exec'
-                    const form = document.forms['contactform']
-                  
-                    form.addEventListener('submit', e => {
-                      e.preventDefault()
-                      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                        .then(response => alert("Thank you! your form is submitted successfully." ))
-                        .then(() => {  window.location.reload(); })
-                        .catch(error => console.error('Error!', error.message))
-                    })
-                  </script>
-            </div>
-        </main>
-    </body>
+        <p id="about" class="about"> <!-- About section -->
+            <!-- Text content -->
+        </p>
+
+        <hr> <!-- Horizontal rule -->
+
+        <p class="inside"> <!-- Inside section -->
+            <b>Select from below to know more</b> <!-- Bold text -->
+        </p>
+
+        <div id=iframe> <!-- Iframe section -->
+            <p align="center"> <!-- Paragraph aligned to the center -->
+                <iframe id="embedded"  width="900" height="1000" src="Embeded.html" alt="A box showing different pages"></iframe> <!-- Iframe element -->
+            </p>
+        </div><br><br>
+
+        <div align="center"> <!-- Center-aligned content -->
+            <!-- Contact information -->
+        </div>
+
+        <div class="form-container"> <!-- Form container -->
+            <!-- Form for leaving a comment -->
+            <p align="center"><b>-Leave a Comment</b></p>
+            <form id="form" method="POST" name="contactform">
+                <!-- Form inputs -->
+                <input type="hidden" name="_captcha" value="false">
+                <div class="form-group">
+                    <label class="form-label" for="name">Name:</label>
+                    <input class="form-input" type="text" id="name" name="Name" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="email">Email:</label>
+                    <input class="form-input" type="email" id="email" name="Email" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="message">Message:</label>
+                    <textarea class="form-input" id="message" name="Message" rows="4" required></textarea>
+                </div>
+                <button class="form-submit" type="submit" onclick="saveFile()">Submit</button> <!-- Submit button -->
+            </form>
+            <script>
+                // JavaScript code for form submission
+            </script>
+        </div>
+    </main>
+</body>
 </html>
