@@ -6,6 +6,7 @@ a{
 
 header{
     text-align: center;
+    margin-bottom: 0;
 }
 
 .cat{
@@ -15,26 +16,50 @@ header{
 }
 
 body{
-    background-color: #41488e;
+    background-color: #003554;
 }
 
 main{
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/hobbies.jpg);
-    background-size: cover;
-    padding-left: 20px;
-    font-family: sans-serif;
+    margin-top: 1cm;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/education.jpg);
+    background-size:cover;
+    background-repeat: repeat-y;
 }
 
-h1 span, p span{
+.info{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background-color: rgba(0,0,0,0.6);
+    padding-left : 75px;
+    padding-right : 75px;
+    padding-bottom: 75px;
+    padding-top: 50px;
+    margin:0;
 }
 
-h1{
+.tit{
+    text-shadow: black;
     font-size: 0.5in;
-    padding-top: 20px;
-    font-weight: 700;
 }
+
+hr{
+    background-color: white;
+    height: 2px;
+}
+
+h1 span{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.edulevel{
+    background-color:#b8afaf;
+    color:black
+}
+
+p, .cert{
+    font-size:medium;
+}
+
 
 button {
     background-color: violet;

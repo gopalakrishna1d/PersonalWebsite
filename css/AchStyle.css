@@ -6,7 +6,6 @@ a{
 
 header{
     text-align: center;
-    margin-bottom: 0;
 }
 
 .cat{
@@ -16,50 +15,40 @@ header{
 }
 
 body{
-    background-color: #003554;
+    background-color: #d84a05;
 }
 
 main{
-    margin-top: 1cm;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/education.jpg);
+    font-family:sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../images/achievements.jpg);
     background-size:cover;
-    background-repeat: repeat-y;
-}
-
-.info{
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    padding-left : 75px;
-    padding-right : 75px;
-    padding-bottom: 75px;
-    padding-top: 50px;
-    margin:0;
-}
-
-.tit{
-    text-shadow: black;
-    font-size: 0.5in;
-}
-
-hr{
-    background-color: white;
-    height: 2px;
+    background-position-y: center;
+    background-position-x: center;
+    padding-top: 20px;
+    margin-top: 1cm;
+    padding:20px;
 }
 
 h1 span{
+    color: white;
     background-color: rgba(0,0,0,0.5);
+    margin-top: 20px;
+    font-size: 0.5in;
 }
 
-.edulevel{
-    background-color:#b8afaf;
-    color:black
+p span, h4 span{
+    background-color: rgba(225,225,225,0.5);
 }
 
-p, .cert{
-    font-size:medium;
+h4{
+    font-size:large;
 }
 
+hr{
+    width:95%;
+    height: 5px;
+    background-color: white;    
+}
 
 button {
     background-color: violet;
